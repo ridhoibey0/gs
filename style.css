@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap");
+
 body {
   overflow-x: hidden;
-  font-family: "Poppins", sans-serif;
+  font-family: "Alegreya", serif;
+  background-color: #f4ebd0;
 }
 header {
   margin-bottom: 70px;
@@ -18,19 +20,15 @@ p {
   color: #2399cc;
 }
 .btn-pink-moon {
-  background: #ec008c; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fc6767,
-    #ec008c
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: rgb(0, 162, 233);
   background: linear-gradient(
-    to right,
-    #fc6767,
-    #ec008c
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
+    90deg,
+    rgba(0, 162, 233, 0.865983893557423) 76%,
+    rgba(168, 141, 145, 0.4822303921568627) 94%
+  );
+  color: white;
   border: 3px solid #eee;
+  border-radius: 10px;
 }
 
 .img-section {
@@ -38,9 +36,20 @@ p {
   height: 550px;
 }
 
+footer {
+  background-color: #342c2a;
+  padding: 35px;
+}
+
 @media screen and (max-width: 420px) {
   .img-section {
     width: 200px;
     height: 250px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
   }
 }
