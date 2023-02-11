@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  margin-bottom: 70px;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+h1 {
+  color: #e70c82;
+}
+p {
+  color: #2399cc;
+}
+.btn-pink-moon {
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  border: 3px solid #eee;
+}
+
+.img-section {
+  width: 500px;
+  height: 550px;
+}
+
+@media screen and (max-width: 420px) {
+  .img-section {
+    width: 200px;
+    height: 250px;
+  }
+}
