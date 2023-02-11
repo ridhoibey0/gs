@@ -13,7 +13,7 @@ section {
   margin-bottom: 70px;
 }
 
-h1 {
+.prim-text {
   color: #e70c82;
 }
 p {
@@ -43,7 +43,7 @@ footer {
 
 @media screen and (max-width: 420px) {
   .img-section {
-    width: 200px;
+    width: 180px;
     height: 250px;
   }
   h1 {
