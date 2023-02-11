@@ -9,6 +9,25 @@ header {
   margin-bottom: 70px;
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.navbar-dark {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: #ffffff !important;
+  width: 100%;
+}
+
+.navbar-collapse,
+.navbar-nav,
+.nav-item {
+  color: inherit !important;
+}
+
 section {
   margin-bottom: 70px;
 }
