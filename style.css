@@ -29,6 +29,7 @@ header {
 }
 
 section {
+  margin-top: 70px;
   margin-bottom: 70px;
 }
 
@@ -60,13 +61,13 @@ footer {
   padding: 35px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 780px) {
   .img-section {
-    width: 180px;
-    height: 250px;
+    width: 150px;
+    height: 180px;
   }
   h1 {
-    font-size: 20px;
+    font-size: 28px;
   }
   p {
     font-size: 15px;
