@@ -63,7 +63,7 @@ footer {
 
 @media screen and (max-width: 780px) {
   .img-section {
-    width: 150px;
+    max-width: 120px;
     height: 180px;
   }
   h1 {
